@@ -1,0 +1,38 @@
+.title{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+body{
+    background-image: url("assets/bg.png");
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.font-s5{
+    font-size: 5rem;
+}
+button{
+    background: black;
+    font-family: 'Amatic SC', cursive;
+    border:solid white 1px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 3rem;
+    width: 300px;
+    margin-right: 1rem;
+}
+button:hover{
+    border-color: green;
+}
